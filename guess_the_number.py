@@ -1,4 +1,4 @@
-#! /usr/bin/env python3
+#! /usr/bin/env python
 
 import random
 import sys
@@ -107,11 +107,13 @@ class GTNRunner_Windows(GTNRunner):
         print('#' * 120)
         print('\t' * 5 + ' ' * 4 + '. . .Goodbye . . .' + ' ' * 4 + '\t' * 5)
         print('#' * 120)
+        time.sleep(5)
 
     def welcome_banner(self):
         print('#' * 120)
         print('\t' * 5 + ' ' * 4 + 'Welcome to the game' + ' ' * 4 + '\t' * 5)
-        print('#' * 120)
+        print('\n#' * 120)
+        time.sleep(5)
 
     @staticmethod
     def terminal_cleaner():
